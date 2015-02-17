@@ -1,2 +1,1 @@
-# duckegg
-Dropbox uploader
+## Project: Duckegg

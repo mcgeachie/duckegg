@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*------------------------------------*\
+    SCREEN.CSS
+\*------------------------------------*/
+
+/**
+ * Setup
+ */
+@import "../../bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "vars";
+@import "../../bower_components/inuit.css/inuit";
+@import "mixins";  // Custom mixins
+
+/**
+ * She’s all yours, cap’n... Begin importing your stuff here.
+ */
+@import "ui/scaffolding";
+@import "ui/typography";
+@import "ui/color";
+@import "ui/header";
+@import "ui/navs";
+@import "ui/forms";
+@import "ui/buttons";
+@import "ui/footer";
+@import "ui/helpers";
+
+header {
+    background: #a6c0c5;
+
+    h1 {
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        line-height: 100%;
+        margin: {
+            top: -4px;
+            left: -2px;
+        };
+    }
+}
